@@ -19,7 +19,10 @@ const Collections = () => {
     },
   };
   return (
-    <div className="bg-[#02021B] py-10 text-white overflow-x-hidden overflow-y-hidden ">
+    <div
+      id="collections"
+      className="bg-[#02021B] py-10 text-white overflow-x-hidden overflow-y-hidden "
+    >
       <div className="container mx-auto">
         <motion.h1
           initial={{ x: 200 }}

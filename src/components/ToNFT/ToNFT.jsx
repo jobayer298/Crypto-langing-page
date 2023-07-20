@@ -66,7 +66,7 @@ const ToNFT = () => {
   }, []);
 
   return (
-    <div className="bg-[#11062F] text-white py-10">
+    <div id="top" className="bg-[#11062F] text-white py-10">
       <Modal singleData={singleData} modalRef={modalRef}></Modal>
       <div className="container mx-auto">
         <motion.div>

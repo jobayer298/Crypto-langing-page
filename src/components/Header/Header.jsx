@@ -41,10 +41,31 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   const menu = (
     <>
-      <li>Home</li>
-      <li>Service</li>
-      <li>Creators</li>
-      <li>About</li>
+      <li>
+        <a className="hover:text-white" href="#home">
+          Home
+        </a>
+      </li>
+      <li>
+        <a className="hover:text-white" href="#top">
+          Top NFT
+        </a>
+      </li>
+      <li>
+        <a className="hover:text-white" href="#creators">
+          Creators
+        </a>
+      </li>
+      <li>
+        <a className="hover:text-white" href="#gallery">
+          Gallery
+        </a>
+      </li>
+      <li>
+        <a className="hover:text-white" href="#collections">
+          Collections
+        </a>
+      </li>
     </>
   );
   return (
@@ -81,7 +102,7 @@ const Header = () => {
           </motion.div>
         </div>
         <motion.div variants={anime} className="navbar-center hidden lg:flex ">
-          <ul className="menu text-[16px] gap-4 menu-horizontal px-1">
+          <ul className="menu text-[16px]  menu-horizontal px-1">
             {menu}
           </ul>
         </motion.div>

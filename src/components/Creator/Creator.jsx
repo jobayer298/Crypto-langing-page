@@ -38,7 +38,7 @@ const Creator = () => {
      },
    };
   return (
-    <div className="bg-[#02021B] py-10 overflow-x-hidden">
+    <div id="creators" className="bg-[#02021B] py-10 overflow-x-hidden">
       <div className="container mx-auto text-white py-10 px-5">
         <h1 className="text-[43px]  font-bold">Our Top Creator’s Words</h1>
         <div>

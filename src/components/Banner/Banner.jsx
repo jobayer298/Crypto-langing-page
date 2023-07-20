@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Banner = () => {
   return (
-    <div className="banner bg-[#0C0263] pt-10 h-[400px] md:h-screen overflow-x-hidden ">
+    <div id="home" className="banner bg-[#0C0263] pt-10 h-[400px] md:h-screen overflow-x-hidden ">
       <div className="container mx-auto text-white flex flex-row-reverse items-center h-full">
         <motion.div
           initial={{ opacity: 0, x: 200 }}

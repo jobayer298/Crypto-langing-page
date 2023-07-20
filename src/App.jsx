@@ -6,6 +6,7 @@ import Creator from './components/Creator/Creator';
 import ImageGallery from './components/Gallery/ImageGallery';
 import Collections from './components/Collections/Collections';
 import Hello from './components/Hello/Hello';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Creator></Creator>
       <ImageGallery></ImageGallery>
       <Collections></Collections>
+      <Footer></Footer>
       {/* <Hello></Hello> */}
     </div>
   );
