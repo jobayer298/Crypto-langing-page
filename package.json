@@ -16,6 +16,8 @@
     "react-audio-player": "^0.17.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
+    "react-loader-spinner": "^5.3.4",
+    "react-particles-js": "^3.6.0",
     "react-photo-gallery": "^8.0.0",
     "react-responsive-masonry": "^2.1.7",
     "swiper": "^10.0.4"
