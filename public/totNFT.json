@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Splash Statue",
+    "image": "https://i.ibb.co/QJngqh3/1.png",
+    "logo": "https://i.ibb.co/GW0w1cr/card-image.png",
+    "eth": 0.1
+  },
+  {
+    "id": 2,
+    "name": "Ball of Life",
+    "image": "https://i.ibb.co/pPs8kWR/3.png",
+    "logo": "https://i.ibb.co/GW0w1cr/card-image.png",
+    "eth": 0.5
+  },
+  {
+    "id": 3,
+    "name": "Shell Artwork",
+    "image": "https://i.ibb.co/4ZgV6SN/2.png",
+    "logo": "https://i.ibb.co/GW0w1cr/card-image.png",
+    "eth": 0.3
+  },
+  {
+    "id": 4,
+    "name": "Splash Statue",
+    "image": "https://i.ibb.co/QJngqh3/1.png",
+    "logo": "https://i.ibb.co/GW0w1cr/card-image.png",
+    "eth": 0.1
+  },
+  {
+    "id": 5,
+    "name": "Ball of Life",
+    "image": "https://i.ibb.co/pPs8kWR/3.png",
+    "logo": "https://i.ibb.co/GW0w1cr/card-image.png",
+    "eth": 0.5
+  },
+  {
+    "id": 6,
+    "name": "Shell Artwork",
+    "image": "https://i.ibb.co/4ZgV6SN/2.png",
+    "logo": "https://i.ibb.co/GW0w1cr/card-image.png",
+    "eth": 0.3
+  }
+]
