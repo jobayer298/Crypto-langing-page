@@ -18,7 +18,7 @@ const Banner = () => {
           </h1>
           <h2 className="text-[33px] md:text-[55px] font-bold">
             just got even better
-          </h2>
+          </h2>  
           <p className="mt-3">
             Best nft collection freelance services online. <br /> Outsource your
             nft collection project and get it <br /> quickly done and delivered
