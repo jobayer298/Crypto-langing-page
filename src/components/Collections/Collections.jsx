@@ -29,7 +29,7 @@ const Collections = () => {
           whileInView={{ x: 0 }}
           transition={{ duration: 1, type: "keyframes" }}
           viewport={{ once: false }}
-          className="text-[43px] pb-7  font-bold"
+          className="text-[43px] pb-7 pt-7  font-bold"
         >
           View Creator’s Collections
         </motion.h1>

@@ -16,6 +16,7 @@ import { motion } from "framer-motion";
 // import required modules
 import { Pagination, Navigation } from "swiper/modules";
 import Modal from "./Modal";
+import { Link } from "react-router-dom";
 
 const ToNFT = () => {
   const [data, setData] = useState([]);
@@ -75,7 +76,7 @@ const ToNFT = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: false }}
-            className="text-[36px] font-bold "
+            className="text-[36px] font-bold pt-8"
           >
             Weekly Top NFTs
           </motion.h1>
@@ -133,18 +134,20 @@ const ToNFT = () => {
                       <p className="font-medium text-[20px]">{d.eth} ETH</p>
                     </div>
                     <div className="card-actions justify-center text-center mt-4">
-                      <button
-                        style={{
-                          background:
-                            "linear-gradient(130deg, #FF56F6 18.31%, #B936EE 43.26%, #3BACE2 85.44%, #406AFF 100%)",
-                          backdropFilter: "blur(96px)",
-                          boxShadow:
-                            "0px 4px 97px 0px rgba(255, 86, 246, 0.51)",
-                        }}
-                        className="btn btn-primary px-8 border-0"
-                      >
-                        Bid Now
-                      </button>
+                      <Link to={`/details/${d.id}`}>
+                        <button
+                          style={{
+                            background:
+                              "linear-gradient(130deg, #FF56F6 18.31%, #B936EE 43.26%, #3BACE2 85.44%, #406AFF 100%)",
+                            backdropFilter: "blur(96px)",
+                            boxShadow:
+                              "0px 4px 97px 0px rgba(255, 86, 246, 0.51)",
+                          }}
+                          className="btn btn-primary px-8 border-0"
+                        >
+                          Details
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>

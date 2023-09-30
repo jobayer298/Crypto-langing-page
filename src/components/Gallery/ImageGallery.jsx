@@ -21,7 +21,7 @@ const ImageGallery = () => {
     },
   };
   return (
-    <div id="gallery" className="bg-[#11062F] text-white">
+    <div id="gallery" className="bg-[#11062F] text-white py-10">
       <div className="container mx-auto py-10 px-5">
         <h1 className="text-[43px]  font-bold">Gallery</h1>
         <div className="my-5">

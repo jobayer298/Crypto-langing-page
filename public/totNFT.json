@@ -4,41 +4,47 @@
     "name": "Splash Statue",
     "image": "https://i.ibb.co/QJngqh3/1.png",
     "logo": "https://i.ibb.co/GW0w1cr/card-image.png",
-    "eth": 0.1
+    "eth": 0.1,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, praesentium minima quisquam neque sint id numquam suscipit placeat dolores nobis mollitia aspernatur consequuntur nisi quia exercitationem omnis labore doloremque dicta earum corporis totam tempora commodi. Sequi voluptatum tempora maiores quaerat."
   },
   {
     "id": 2,
     "name": "Ball of Life",
     "image": "https://i.ibb.co/pPs8kWR/3.png",
     "logo": "https://i.ibb.co/GW0w1cr/card-image.png",
-    "eth": 0.5
+    "eth": 0.5,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, praesentium minima quisquam neque sint id numquam suscipit placeat dolores nobis mollitia aspernatur consequuntur nisi quia exercitationem omnis labore doloremque dicta earum corporis totam tempora commodi. Sequi voluptatum tempora maiores quaerat."
   },
   {
     "id": 3,
     "name": "Shell Artwork",
     "image": "https://i.ibb.co/4ZgV6SN/2.png",
     "logo": "https://i.ibb.co/GW0w1cr/card-image.png",
-    "eth": 0.3
+    "eth": 0.3,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, praesentium minima quisquam neque sint id numquam suscipit placeat dolores nobis mollitia aspernatur consequuntur nisi quia exercitationem omnis labore doloremque dicta earum corporis totam tempora commodi. Sequi voluptatum tempora maiores quaerat."
   },
   {
     "id": 4,
     "name": "Splash Statue",
     "image": "https://i.ibb.co/QJngqh3/1.png",
     "logo": "https://i.ibb.co/GW0w1cr/card-image.png",
-    "eth": 0.1
+    "eth": 0.1,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, praesentium minima quisquam neque sint id numquam suscipit placeat dolores nobis mollitia aspernatur consequuntur nisi quia exercitationem omnis labore doloremque dicta earum corporis totam tempora commodi. Sequi voluptatum tempora maiores quaerat."
   },
   {
     "id": 5,
     "name": "Ball of Life",
     "image": "https://i.ibb.co/pPs8kWR/3.png",
     "logo": "https://i.ibb.co/GW0w1cr/card-image.png",
-    "eth": 0.5
+    "eth": 0.5,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, praesentium minima quisquam neque sint id numquam suscipit placeat dolores nobis mollitia aspernatur consequuntur nisi quia exercitationem omnis labore doloremque dicta earum corporis totam tempora commodi. Sequi voluptatum tempora maiores quaerat."
   },
   {
     "id": 6,
     "name": "Shell Artwork",
     "image": "https://i.ibb.co/4ZgV6SN/2.png",
     "logo": "https://i.ibb.co/GW0w1cr/card-image.png",
-    "eth": 0.3
+    "eth": 0.3,
+    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, praesentium minima quisquam neque sint id numquam suscipit placeat dolores nobis mollitia aspernatur consequuntur nisi quia exercitationem omnis labore doloremque dicta earum corporis totam tempora commodi. Sequi voluptatum tempora maiores quaerat."
   }
 ]
