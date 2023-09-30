@@ -15,9 +15,6 @@ const Details = () => {
     }, []);
     const navigation = useNavigation();
     const navigate = useNavigate()
-    if (navigation.state === "loading") {
-      return <Loader></Loader>;
-    }
     return (
       <div className="bg-[#02021B] text-white">
         <div className="hero min-h-screen ">
@@ -34,7 +31,7 @@ const Details = () => {
                   backdropFilter: "blur(96px)",
                   boxShadow: "0px 4px 97px 0px rgba(255, 86, 246, 0.51)",
                 }}
-                onClick={() => navigate(-1)}
+                onClick={() => navigate("/")}
                 className="btn outline-0 border-0 text-white"
               >
                 Back to home

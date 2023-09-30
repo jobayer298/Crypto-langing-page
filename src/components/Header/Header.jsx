@@ -2,18 +2,27 @@ import React, { useState } from "react";
 import logo from "../../../public/Logo/logo.png";
 import Hamburger from "hamburger-react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { AuthContext } from "../../provider/AuthProvider";
 
 const Header = () => {
-  const [navbar, setNavbar] = useState(false);
-  const changeBackGround = () => {
-    if (window.scrollY >= 70) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
+  const { user, logout } = useContext(AuthContext);
+  // const [navbar, setNavbar] = useState(false);
+  // const changeBackGround = () => {
+  //   if (window.scrollY >= 70) {
+  //     setNavbar(true);
+  //   } else {
+  //     setNavbar(false);
+  //   }
+  // };
+  // window.addEventListener("scroll", changeBackGround);
+  //   const easing = [0.6, -0.05, 0.01, 0.99];
+  const handleLogout = () => {
+    logout()
+      .then()
+      .catch((err) => console.log(err));
   };
-  window.addEventListener("scroll", changeBackGround);
-//   const easing = [0.6, -0.05, 0.01, 0.99];
   const variants = {
     hidden: { opacity: 0 },
     show: {
@@ -34,7 +43,7 @@ const Header = () => {
       y: 0,
       opacity: 1,
       transition: {
-        duration: 0.6, 
+        duration: 0.6,
       },
     },
   };
@@ -96,23 +105,50 @@ const Header = () => {
               </ul>
             )}
           </div>
-          <motion.div variants={anime} className="flex items-center gap-2">
-            <img src={logo} alt="" />
-            <h1 className="font-medium text-3xl ">Havas</h1>
+          <motion.div variants={anime}>
+            <Link to="/">
+              <div className="flex items-center gap-2">
+                <img src={logo} alt="" />
+                <h1 className="font-medium text-3xl ">Havas</h1>
+              </div>
+            </Link>
           </motion.div>
         </div>
         <motion.div variants={anime} className="navbar-center hidden lg:flex ">
-          <ul className="menu text-[16px]  menu-horizontal px-1">
-            {menu}
-          </ul>
+          <ul className="menu text-[16px]  menu-horizontal px-1">{menu}</ul>
         </motion.div>
         <motion.div variants={anime} className="navbar-end gap-2">
           {/* <button className="border-2 btn-sm border-indigo-500/100 hover:bg-indigo-500/100 px-7 py-1 rounded-lg">
             Login
           </button> */}
-          <button className="border-2 btn-sm border-indigo-500/100 hover:bg-indigo-500/100 px-7 py-1 rounded-lg">
-            Sign up
-          </button>
+          {user ? (
+            <button
+              onClick={handleLogout}
+              style={{
+                background:
+                  "linear-gradient(130deg, #FF56F6 18.31%, #B936EE 43.26%, #3BACE2 85.44%, #406AFF 100%)",
+                backdropFilter: "blur(96px)",
+                boxShadow: "0px 4px 97px 0px rgba(255, 86, 246, 0.51)",
+              }}
+              className="btn btn-sm outline-0 border-0 text-white"
+            >
+              Logout
+            </button>
+          ) : (
+            <Link to="/login">
+              <button
+                style={{
+                  background:
+                    "linear-gradient(130deg, #FF56F6 18.31%, #B936EE 43.26%, #3BACE2 85.44%, #406AFF 100%)",
+                  backdropFilter: "blur(96px)",
+                  boxShadow: "0px 4px 97px 0px rgba(255, 86, 246, 0.51)",
+                }}
+                className="btn btn-sm outline-0 border-0 text-white"
+              >
+                Login
+              </button>
+            </Link>
+          )}
         </motion.div>
       </motion.div>
     </div>
